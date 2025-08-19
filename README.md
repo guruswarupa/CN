@@ -21,6 +21,8 @@ It is designed to help students learn and practice networking concepts through h
     ```bash
     sudo dpkg -i tcl_8.6.13_amd64.deb
     sudo dpkg -i ns2_2.35+dfsg-9_amd64.deb 
+    sudo apt --fix-broken install 
     sudo dpkg -i nam_1.14_amd64.deb 
-    sudo dpkg -i ns2_2.35+dfsg-9_amd64.deb
+    sudo dpkg -i xgraph_12.1-17_amd64.deb
+   
     ```
