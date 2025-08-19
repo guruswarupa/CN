@@ -14,7 +14,10 @@ It is designed to help students learn and practice networking concepts through h
    cd CN
    ```
 
-2. **install tcl,ns2,nam,xgraph**
+2. Install required packages (Debian-based Linux only ⚠️)
+
+⚠️ These .deb packages are only for Debian-based distributions (Ubuntu, Linux Mint, Pop!_OS, etc.).
+
     ```bash
     sudo dpkg -i tcl_8.6.13_amd64.deb
     sudo dpkg -i ns2_2.35+dfsg-9_amd64.deb 
