@@ -1,0 +1,1 @@
+awk -f lab4.awk lab4.tr
