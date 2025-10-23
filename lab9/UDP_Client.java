@@ -5,11 +5,9 @@ class UDP_Client {
         DatagramSocket skt = new DatagramSocket(9999); 
         byte[] buffer = new byte[1024];
         System.out.println("Client listening on port 9999...");
-
-        while (true) {
-            DatagramPacket reply = new DatagramPacket(buffer, buffer.length);
-            skt.receive(reply);
-            System.out.println("Client received: " + new String(reply.getData()));
-        }
+        DatagramPacket reply = new DatagramPacket(buffer, buffer.length);
+        skt.receive(reply);
+        System.out.println("Client received: " + new String(reply.getData()));
+        skt.close();
     }
 }
